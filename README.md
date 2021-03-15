@@ -2,7 +2,7 @@
 
 This Project is about a sensor Platform for our Weekendhome.
 
-##Project description
+## Project description
 
 * The Brain of the Project will be a Raspberry Pi Pico running CircuitPython. 
 * For the first Version i will be using a BME280 for monitoring the air pressure, inside Temperature and Humidity.
