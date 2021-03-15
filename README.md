@@ -1,6 +1,6 @@
-# RemoteSensor
+# Gaia 9
 
-This Project is about a sensor Platform for our Weekendhome.
+This Project is about a sensor Platform for our Weekendhome. Since it is a onehour drive it would be nice to have Information about the weather before going there. At that place there is no Powerline, and no Internet or Wifi. That means it needs a way to store and generate energy - in the first version a small Solarpanel should charge a single liion cell. For communication a SIM800 module will provide a slow connection to the internet. The name *Gaia 9* is named after the moon lander *Luna 9* and will be hopefully exced the 3 days Luna 9 survived. 
 ![first non breadboard version](https://github.com/MisterD66/RemoteSensor/blob/main/soldered.JPG?raw=true)
 
 ## Project description
