@@ -29,3 +29,21 @@ i also measured the pico without the GSM module it is about 20mA so i hope to im
 the other half of the Idle consumption is the 20mA from the gsm module, i hope to implement some kind of power down and power up for the modem!
 
 for my test now i use a single liion cell with 2500mA - with the curent powerconsumption and new measurements every half hour it should last for about 2 days
+
+## ToDo
+
+### CPython Code
+- [ ] move URL to secrets so its not publicly available in github :D
+- [ ] finish submission code
+- [ ] create a loop that runns the code cyclic (i would prefer the code to be completly restartet)
+- [ ] more powersaving
+- [ ] error handling - code should not break if a sensor is not available anymore!
+
+### Server Side code
+- [ ] change datastorage to SQL
+- [ ] Public webpage Dataview with graphics
+
+### Node Red
+- [ ] api to get the messurements on my home Raspberry Pi
+- [ ] get data into Grafana
+- [ ] Telegram Bot
