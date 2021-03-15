@@ -1,5 +1,8 @@
 # RemoteSensor
+
 This Project is about a sensor Platform for our Weekendhome.
+
+##Project description
 
 * The Brain of the Project will be a Raspberry Pi Pico running CircuitPython. 
 * For the first Version i will be using a BME280 for monitoring the air pressure, inside Temperature and Humidity.
@@ -8,7 +11,7 @@ This Project is about a sensor Platform for our Weekendhome.
 * For communication i am using a SIM800L module that transmits to my webserver.
 * On the webserver side there is a PHP file that gets the Variables from the URL and apend them to a file (maybe write them to a database in the future) also the timestamp for the datapoints is generated on the PHP Server eliminating the need for an RTC on the board
 
-# Problems
+## Problems
 
 * Circuit Python support for the Pico is not full featured yet, there are still some quite important modules missing!
 * UART Support was added since i started my project so no problem anymore
@@ -16,7 +19,7 @@ This Project is about a sensor Platform for our Weekendhome.
 * pulsein lib is not supported yet (in the nightly builds its allready available) so most singlewire sensora are not possible yet.
 * one of the biggest problems is the "alarm" library that is used for puting the Pico in deepsleep is not available yet! also i didnt see any traces of it in the github so a added a feature request.
 
-# Powerconsumption
+## Powerconsumption
 
 * i did some estimation, without any optimisation i get an idle consumption of 40mA
 * a full circle of collecting measurements and transmiting them takes about 100s and is using an average of 100mA
