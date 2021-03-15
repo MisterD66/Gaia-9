@@ -1,7 +1,7 @@
 # RemoteSensor
 
 This Project is about a sensor Platform for our Weekendhome.
-
+![first non breadboard version](https://github.com/MisterD66/RemoteSensor/blob/main/soldered.JPG?raw=true)
 
 ## Project description
 
