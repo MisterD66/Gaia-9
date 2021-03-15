@@ -12,6 +12,10 @@ This Project is about a sensor Platform for our Weekendhome. Since it is a oneho
 * For communication i am using a SIM800L module that transmits to my webserver.
 * On the webserver side there is a PHP file that gets the Variables from the URL and apend them to a file (maybe write them to a database in the future) also the timestamp for the datapoints is generated on the PHP Server eliminating the need for an RTC on the board
 
+### Schematics
+I didnt draw any schematics yet since everything is quite straight forward
+![pinout](https://github.com/MisterD66/Gaia-9/blob/main/Pinout.png)
+
 ## Problems
 
 * Circuit Python support for the Pico is not full featured yet, there are still some quite important modules missing!
