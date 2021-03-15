@@ -2,6 +2,7 @@
 
 This Project is about a sensor Platform for our Weekendhome.
 
+
 ## Project description
 
 * The Brain of the Project will be a Raspberry Pi Pico running CircuitPython. 
